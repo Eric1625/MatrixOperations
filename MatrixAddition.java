@@ -17,13 +17,13 @@ public class MatrixAddition{
      
      else{
      for(int i = 0;i<row;i++){
-         System.out.print("Enter " + column + " values for row " + i+1 + " for matrix 1: ");
+         System.out.print("Enter " + column + " values for row " + i + " for matrix 1: ");
          for(int j = 0;j<column;j++){
              matrix[i][j]=in.nextInt();
         }
     }
         for(int i = 0;i<row;i++){
-         System.out.print("Enter " + column + " values for row " + i+1 + " for matrix 2: ");
+         System.out.print("Enter " + column + " values for row " + i + " for matrix 2: ");
          for(int j = 0;j<column;j++){   
              matrix2[i][j]=in.nextInt();
         }
